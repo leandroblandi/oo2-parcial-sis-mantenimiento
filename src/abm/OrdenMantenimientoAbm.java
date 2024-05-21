@@ -32,7 +32,6 @@ public class OrdenMantenimientoAbm {
 	}
 
 	public List<OrdenMantenimiento> traer(Ambiente ambiente, boolean terminada) {
-
 		List<OrdenMantenimiento> ordenes = dao.traer(ambiente);
 		List<OrdenMantenimiento> ordenesFiltradas = new ArrayList<>();
 
